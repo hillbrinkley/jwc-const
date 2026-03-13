@@ -11,9 +11,10 @@ import '../styles/global.css';
 		<meta name='generator' content={Astro.generator} />
 		<title>JWC Construction</title>
 	</head>
-	<body class='grid justify-center items-center bg-green-900'>
-		<div class='text-white max-w-3/4 grid gap-10'>
-			<h1 class='font-bold text-4xl'>JWC Construction LLC</h1>
+	<body class='grid justify-center items-center bg-green-900 sm:h-screen'>
+		<div class='text-white grid gap-10 sm:p-20 p-5 border-2'>
+			<h1 class='font-bold text-4xl hidden'>JWC Construction LLC</h1>
+			<img src='./public/smaller.svg' alt='JWC Construction LLC logo' class='invert' />
 			<h2>
 				We specialize in building high-quality residential garages, <br />
 				decks, and home additions. We focus on durable craftsmanship, practical design, and
@@ -28,8 +29,6 @@ import '../styles/global.css';
 					>josh@jwcbedford.com</a
 				></span
 			>
-
-			
 		</div>
 	</body>
 </html>
